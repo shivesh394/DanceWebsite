@@ -1,0 +1,17 @@
+{
+  "name": "dancewebsite",
+  "version": "1.0.0",
+  "description": "This is dance website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shivesh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7",
+    "nodemon": "^2.0.12",
+    "pug": "^3.0.2"
+  }
+}
