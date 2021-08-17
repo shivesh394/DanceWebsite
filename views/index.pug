@@ -1,0 +1,46 @@
+doctype html
+html
+  head
+    title Maxi's dance academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+        ul
+            div#logo 
+                img(src="../static/img/logo2.png", alt="error")
+                a MDA
+            li #[a(href="/") Home] 
+            li #[a(href="/") About] 
+            li #[a(href="/") Services] 
+            li #[a(href="/") Class Info] 
+            li #[a(href="/") Contact Us]
+    section#intro 
+        div Welcome to maxi's dance academy
+        div.mini Eat sleep dance and repeat
+
+    section#mission
+        h1 Our mission
+        div#container
+            div.card      
+                h3 Dance performane
+                img#img(src="../static/img/m1.jpg", alt="error")
+            div.card
+                h3 Prize & gifts
+                img#img(src="../static/img/m2.jpg", alt="error")
+            div.card
+                h3 Gallary
+                img#img(src="../static/img/m3.jpg", alt="error")
+    section#sponser
+        h1 Our sponser
+        div#container
+            div.card      
+                img#img(src="../static/img/hp.png", alt="error")
+            div.card
+                img#img(src="../static/img/ms.png", alt="error")
+            div.card
+                img#img(src="../static/img/ebay.png", alt="error")
+    footer#footer 
+        |   Copyright &copy; www.myOnlineMeal.com. All rights reserved!     
+    script
+      include ../static/index.js

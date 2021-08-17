@@ -1,0 +1,36 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style     
+    style
+      include ../static/style.css
+block content 
+    section#intro 
+        div Welcome to maxi's dance academy
+        div.mini Eat sleep dance and repeat
+
+    section#mission
+        h1 Our mission
+        div#container
+            div.card      
+                h3 Dance performane
+                img#img(src="../static/img/m1.jpg", alt="error")
+            div.card
+                h3 Prize & gifts
+                img#img(src="../static/img/m2.jpg", alt="error")
+            div.card
+                h3 Gallary
+                img#img(src="../static/img/m3.jpg", alt="error")
+    section#sponser
+        h1 Our sponser
+        div#container
+            div.card      
+                img#img(src="../static/img/hp.png", alt="error")
+            div.card
+                img#img(src="../static/img/ms.png", alt="error")
+            div.card
+                img#img(src="../static/img/ebay.png", alt="error")
+    script
+        include ../static/index.js
